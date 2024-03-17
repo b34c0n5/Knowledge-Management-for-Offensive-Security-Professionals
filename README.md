@@ -22,4 +22,4 @@ This is an ongoing project, more methodologies are coming. Feel free to share yo
 
 # Credits
 
-Special thanks to TrustedSec for sharing their Obsidian setup. [Link](https://www.trustedsec.com/blog/obsidian-taming-a-collective-consciousness)
+Special thanks to [TrustedSec for sharing their Obsidian setup](https://www.trustedsec.com/blog/obsidian-taming-a-collective-consciousness).
