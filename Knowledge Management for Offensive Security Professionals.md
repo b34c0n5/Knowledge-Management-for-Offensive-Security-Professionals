@@ -61,7 +61,7 @@ First, we have **Organizational Folders**:
 
 1. **01 - Topics:** This folder is designated for *major categories/topics* that are pertinent to my field of work, such as "pentesting," "red team," "programming," and "networking." These categories broadly *define the subjects of all notes in my vault*. For quick recognition, notes within this folder start with the prefix `01 -`.
 
-![[Pasted image 20240317120621.png]]
+![[2_1_Organizational_Folders_01_topics_example.png]]
 
 2. **02 - Types:** This folder is organized by the *nature or purpose of the content*, including classifications like "cheat sheets," "documentation," "techniques," and "write-ups." This categorization not only aids in *distinguishing between different types of notes* but also in *choosing the appropriate template for each*, ensuring consistency. Notes here are marked with a `02 -` prefix, reflecting their organizational function.
 

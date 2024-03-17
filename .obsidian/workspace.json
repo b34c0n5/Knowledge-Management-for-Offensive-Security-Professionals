@@ -14,9 +14,9 @@
               "type": "markdown",
               "state": {
                 "file": "Knowledge Management for Offensive Security Professionals.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": true,
-                "source": true
+                "source": false
               }
             }
           }
@@ -184,11 +184,7 @@
   },
   "active": "65715478311882a0",
   "lastOpenFiles": [
-    "README.md",
-    "Knowledge Management for Offensive Security Professionals.md",
-    "Vault Index.md",
-    "06 - Templates/0600 - Structural Elements/0601 - Header_CheatSheet.md",
-    "06 - Templates/Note Generator.md",
+    "Attachments/Pasted image 20240317120609.png",
     "02 - Types/02 - Write Ups.md",
     "02 - Types/02 - Techniques.md",
     "02 - Types/02 - Documentation.md",
@@ -197,6 +193,11 @@
     "01 - Topics/01 - Programming.md",
     "01 - Topics/01 - Pentesting.md",
     "01 - Topics/01 - Networking.md",
+    "Knowledge Management for Offensive Security Professionals.md",
+    "README.md",
+    "Vault Index.md",
+    "06 - Templates/0600 - Structural Elements/0601 - Header_CheatSheet.md",
+    "06 - Templates/Note Generator.md",
     "06 - Templates/0600 - Structural Elements/6013 - Resources.md",
     "06 - Templates/0600 - Structural Elements/0612 - Body_Install.md",
     "06 - Templates/0600 - Structural Elements/0611 - Body_Examples.md",
@@ -215,9 +216,7 @@
     "04 - Tasks/To-Do (Exercises and Machines).canvas",
     "Attachments/Pasted image 20240317120805.png",
     "Attachments/Pasted image 20240317120632.png",
-    "Attachments/Pasted image 20240317120621.png",
-    "Attachments/Pasted image 20240317120609.png",
-    "07 - MiscFiles/Knowledge Management Course OG.md",
+    "Attachments/2_1_Organizational_Folders_01_topics_example.png",
     "04 - Tasks/Setup For CTF.canvas",
     "03 - Content/Cert/CRTE",
     "03 - Content/Cert/CRTE2",
