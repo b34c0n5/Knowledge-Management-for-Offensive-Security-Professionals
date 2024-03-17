@@ -1,0 +1,244 @@
+{
+  "main": {
+    "id": "6ad182b5a6900fcd",
+    "type": "split",
+    "children": [
+      {
+        "id": "fb9b752d0c238122",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "65715478311882a0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Knowledge Management for Offensive Security Professionals.md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ca4476111a2bab09",
+    "type": "split",
+    "children": [
+      {
+        "id": "9bb30b24d2b40c39",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7d1148bfd735a12b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "0bbefc3af6eff02d",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": true,
+                "explainSearch": true,
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "afa514c45f68c8aa",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 302.5110321044922
+  },
+  "right": {
+    "id": "8409fc61d2a84d38",
+    "type": "split",
+    "children": [
+      {
+        "id": "3ea97176ebf975e7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f3cde2c690507cfc",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Knowledge Management for Offensive Security Professionals.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "941f51496cdff51c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Knowledge Management for Offensive Security Professionals.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "7cff4888cd8470af",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "alphabetical",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "2099263be3961b53",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Knowledge Management for Offensive Security Professionals.md"
+              }
+            }
+          },
+          {
+            "id": "32552598f8323b64",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              }
+            }
+          },
+          {
+            "id": "1ade4bd4ef4acd54",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {
+                "file": "Knowledge Management for Offensive Security Professionals.md"
+              }
+            }
+          },
+          {
+            "id": "18d2d385b24fe3d8",
+            "type": "leaf",
+            "state": {
+              "type": "quiet-outline",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 6
+      }
+    ],
+    "direction": "horizontal",
+    "width": 323.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "workspaces:Manage workspace layouts": false,
+      "janitor:Janitor: scan vault": false,
+      "obsidian-dangling-links:Show dangling links panel": false,
+      "oz-clear-unused-images:Clear Unused Images": false,
+      "obsidian-statusbar-pomo:Start pomodoro": false,
+      "templater-obsidian:Templater": false
+    }
+  },
+  "active": "65715478311882a0",
+  "lastOpenFiles": [
+    "README.md",
+    "Knowledge Management for Offensive Security Professionals.md",
+    "Vault Index.md",
+    "06 - Templates/0600 - Structural Elements/0601 - Header_CheatSheet.md",
+    "06 - Templates/Note Generator.md",
+    "02 - Types/02 - Write Ups.md",
+    "02 - Types/02 - Techniques.md",
+    "02 - Types/02 - Documentation.md",
+    "02 - Types/02 - Cheatsheets.md",
+    "01 - Topics/01 - Red Team.md",
+    "01 - Topics/01 - Programming.md",
+    "01 - Topics/01 - Pentesting.md",
+    "01 - Topics/01 - Networking.md",
+    "06 - Templates/0600 - Structural Elements/6013 - Resources.md",
+    "06 - Templates/0600 - Structural Elements/0612 - Body_Install.md",
+    "06 - Templates/0600 - Structural Elements/0611 - Body_Examples.md",
+    "06 - Templates/0600 - Structural Elements/0610 - Body_Code.md",
+    "06 - Templates/0600 - Structural Elements/0609 - Body_OPSEC.md",
+    "06 - Templates/0600 - Structural Elements/0608 - Body_Steps.md",
+    "06 - Templates/0600 - Structural Elements/0607 - Body_MITRE.md",
+    "06 - Templates/0600 - Structural Elements/0606 - Body_Challenges.md",
+    "06 - Templates/0600 - Structural Elements/0605 - Body.md",
+    "06 - Templates/0600 - Structural Elements/0604 - Header_Writeup.md",
+    "06 - Templates/0600 - Structural Elements/0603 - Header_Documentation.md",
+    "06 - Templates/0600 - Structural Elements/0602 - Header_Technique.md",
+    "07 - MiscFiles/Knowledge Management Course Strat.canvas",
+    "Attachments/Pasted image 20240317121156.png",
+    "Attachments/Pasted image 20240317120854.png",
+    "04 - Tasks/To-Do (Exercises and Machines).canvas",
+    "Attachments/Pasted image 20240317120805.png",
+    "Attachments/Pasted image 20240317120632.png",
+    "Attachments/Pasted image 20240317120621.png",
+    "Attachments/Pasted image 20240317120609.png",
+    "07 - MiscFiles/Knowledge Management Course OG.md",
+    "04 - Tasks/Setup For CTF.canvas",
+    "03 - Content/Cert/CRTE",
+    "03 - Content/Cert/CRTE2",
+    "03 - Content/Cert/CRTE.zip",
+    "Attachments/Pasted image 20240316175100.png",
+    "04 - Tasks/NetRunners Diagram.canvas",
+    "07 - MiscFiles/WGU.canvas",
+    "Attachments/Pasted image 20240315020551.png",
+    "Attachments/Pasted image 20240315020043.png",
+    "Attachments/Pasted image 20240315010035.png",
+    "03 - Content/Cert/Maldev Academy",
+    "03 - Content/Write Ups/OSEP Challenge 1/Canvas.canvas",
+    "Pictures",
+    "03 - Content/Cert/Sektor 7 Maldev Essentials",
+    "04 - Tasks/Setup.canvas",
+    "04 - Tasks/Ideas.canvas",
+    "06 - Templates/0600 - Write Up Templates/Untitled.canvas",
+    "06 - Templates/0600 - Write Up Templates",
+    "03 - Content/Write Ups/OSEP Challenge 1",
+    "07 - MiscFiles/0600 - Structural Elements BAK",
+    "06 - Templates/0600 - Structural Elements copy",
+    "03 - Content/Cheatsheets/Diagrams/Pentesting MindMaps.canvas"
+  ]
+}
