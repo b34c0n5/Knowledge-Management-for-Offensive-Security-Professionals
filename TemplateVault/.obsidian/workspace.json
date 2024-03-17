@@ -1,0 +1,253 @@
+{
+  "main": {
+    "id": "6ad182b5a6900fcd",
+    "type": "split",
+    "children": [
+      {
+        "id": "2a37e7fc4ee60ebb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "365154f39894f207",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "!Knowledge Management for Offensive Security Professional/KM4OP.jpg"
+              }
+            }
+          },
+          {
+            "id": "03d051a64365339c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "!Knowledge Management for Offensive Security Professional/Knowledge Management for Offensive Security Professionals.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ca4476111a2bab09",
+    "type": "split",
+    "children": [
+      {
+        "id": "9bb30b24d2b40c39",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7d1148bfd735a12b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "0bbefc3af6eff02d",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": true,
+                "explainSearch": true,
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "afa514c45f68c8aa",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 302.5110321044922
+  },
+  "right": {
+    "id": "8409fc61d2a84d38",
+    "type": "split",
+    "children": [
+      {
+        "id": "3ea97176ebf975e7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f3cde2c690507cfc",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "!Knowledge Management for Offensive Security Professional/KM4OP.jpg",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "941f51496cdff51c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "!Knowledge Management for Offensive Security Professional/KM4OP.jpg",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "7cff4888cd8470af",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "alphabetical",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "2099263be3961b53",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "!Knowledge Management for Offensive Security Professional/KM4OP.jpg"
+              }
+            }
+          },
+          {
+            "id": "32552598f8323b64",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              }
+            }
+          },
+          {
+            "id": "1ade4bd4ef4acd54",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {
+                "file": "!Knowledge Management for Offensive Security Professional/KM4OP.jpg"
+              }
+            }
+          },
+          {
+            "id": "18d2d385b24fe3d8",
+            "type": "leaf",
+            "state": {
+              "type": "quiet-outline",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 6
+      }
+    ],
+    "direction": "horizontal",
+    "width": 323.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "workspaces:Manage workspace layouts": false,
+      "janitor:Janitor: scan vault": false,
+      "obsidian-dangling-links:Show dangling links panel": false,
+      "oz-clear-unused-images:Clear Unused Images": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-statusbar-pomo:Start pomodoro": false
+    }
+  },
+  "active": "365154f39894f207",
+  "lastOpenFiles": [
+    "!Knowledge Management for Offensive Security Professional/Knowledge Management for Offensive Security Professionals.md",
+    "!Knowledge Management for Offensive Security Professional/2. Getting to Know the Vault.md",
+    "!Knowledge Management for Offensive Security Professional/1. Introduction to Obsidian.md",
+    "!Knowledge Management for Offensive Security Professional/KM4OP.jpg",
+    "!Knowledge Management for Offensive Security Professional/0. Preface.md",
+    "!Knowledge Management for Offensive Security Professional/3. Note Types.md",
+    "!Knowledge Management for Offensive Security Professional",
+    "Attachments/2_5_Attachments.png",
+    "04 - Tasks/My Ideas.canvas",
+    "04 - Tasks/To-Do Kanban.md",
+    "Attachments/KM4OP.jpg",
+    "Attachments/KM4OP.jpg",
+    "06 - Templates/Note Generator.md",
+    "06 - Templates/0600 - Structural Elements/6013 - Resources.md",
+    "06 - Templates/0600 - Structural Elements/0601 - Header_CheatSheet.md",
+    "02 - Types/02 - Cheatsheets.md",
+    "02 - Types/02 - Documentation.md",
+    "02 - Types/02 - Techniques.md",
+    "02 - Types/02 - Write Ups.md",
+    "01 - Topics/01 - Networking.md",
+    "01 - Topics/01 - Pentesting.md",
+    "04 - Tasks/TO-DO.md",
+    "2_1_Organizational_Folders_Topics.md",
+    "Attachments/2_1_Organizational_Folders_Topics.png",
+    "Attachments/2_1_Organizational_Folders_Types.png",
+    "Attachments/04_Tasks.png",
+    "Attachments/06_Templates.png",
+    "Attachments/06 _Structural_Elements.png",
+    "Attachments/2_2_Content_Folder.png",
+    "README.md",
+    "Vault Index.md",
+    "01 - Topics/01 - Red Team.md",
+    "01 - Topics/01 - Programming.md",
+    "06 - Templates/0600 - Structural Elements/0612 - Body_Install.md",
+    "06 - Templates/0600 - Structural Elements/0611 - Body_Examples.md",
+    "06 - Templates/0600 - Structural Elements/0610 - Body_Code.md",
+    "06 - Templates/0600 - Structural Elements/0609 - Body_OPSEC.md",
+    "07 - MiscFiles/Knowledge Management Course Strat.canvas",
+    "04 - Tasks/To-Do (Exercises and Machines).canvas",
+    "04 - Tasks/Setup For CTF.canvas",
+    "03 - Content/Cert/CRTE",
+    "03 - Content/Cert/CRTE2",
+    "03 - Content/Cert/CRTE.zip",
+    "04 - Tasks/NetRunners Diagram.canvas",
+    "07 - MiscFiles/WGU.canvas",
+    "03 - Content/Cert/Maldev Academy",
+    "03 - Content/Write Ups/OSEP Challenge 1/Canvas.canvas",
+    "Pictures",
+    "03 - Content/Cert/Sektor 7 Maldev Essentials",
+    "04 - Tasks/Setup.canvas",
+    "04 - Tasks/Ideas.canvas",
+    "06 - Templates/0600 - Write Up Templates/Untitled.canvas",
+    "06 - Templates/0600 - Write Up Templates",
+    "03 - Content/Write Ups/OSEP Challenge 1",
+    "07 - MiscFiles/0600 - Structural Elements BAK"
+  ]
+}
