@@ -1,5 +1,7 @@
 Template vault for Knowledge Management for Offensive Security Professionals by [Hacker Hermanos](https://linktr.ee/hackerhermanos)
 
+![KM4OP](https://github.com/Hacker-Hermanos/Knowledge-Management-for-Offensive-Security-Professionals/blob/main/TemplateVault/Attachments/KM4OP.jpg)
+
 # Usage
 
 - To get started, clone this repository
