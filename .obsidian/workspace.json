@@ -178,8 +178,8 @@
       "janitor:Janitor: scan vault": false,
       "obsidian-dangling-links:Show dangling links panel": false,
       "oz-clear-unused-images:Clear Unused Images": false,
-      "obsidian-statusbar-pomo:Start pomodoro": false,
-      "templater-obsidian:Templater": false
+      "templater-obsidian:Templater": false,
+      "obsidian-statusbar-pomo:Start pomodoro": false
     }
   },
   "active": "65715478311882a0",
