@@ -23,35 +23,35 @@ console.log(`Select a note type: "${type}" is valid`);
 
 
 //// Retrieve all necessary files (TO-DO, turn this into a function so only files that are needed get retrieved)
-body = await tp.file.include("[[0605 - Body]]");
-challenges = await tp.file.include("[[0606 - Body_Challenges]]");
-mitre = await tp.file.include("[[0607 - Body_MITRE]]");
-steps = await tp.file.include("[[0608 - Body_Steps]]");
-opsec = await tp.file.include("[[0609 - Body_OPSEC]]");
-code = await tp.file.include("[[0610 - Body_Code]]");
-examples = await tp.file.include("[[0611 - Body_Examples]]");
-install = await tp.file.include("[[0612 - Body_Install]]");
-resources = await tp.file.include("[[6013 - Resources]]");
+body = await tp.file.include("[[0505 - Body]]");
+challenges = await tp.file.include("[[0506 - Body_Challenges]]");
+mitre = await tp.file.include("[[0507 - Body_MITRE]]");
+steps = await tp.file.include("[[0508 - Body_Steps]]");
+opsec = await tp.file.include("[[0509 - Body_OPSEC]]");
+code = await tp.file.include("[[0510 - Body_Code]]");
+examples = await tp.file.include("[[0511 - Body_Examples]]");
+install = await tp.file.include("[[0512 - Body_Install]]");
+resources = await tp.file.include("[[0513 - Resources]]");
 
 
 ////// Select correct correct header and options based on $type
 // returns $header
 switch (type) {
     case "Cheatsheet Note":
-        header = await tp.file.include("[[0601 - Header_CheatSheet]]");
+        header = await tp.file.include("[[0501 - Header_CheatSheet]]");
         options = (mitre + examples + resources);
         break;
     case "Documentation Note":
-        header = await tp.file.include("[[0603 - Header_Documentation]]");
+        header = await tp.file.include("[[0503 - Header_Documentation]]");
         options = (install + resources);
         break;
     case "Technique Note":
-        header = await tp.file.include("[[0602 - Header_Technique]]");
+        header = await tp.file.include("[[0502 - Header_Technique]]");
         options = (mitre + challenges + steps + opsec + code + examples + resources);
         break;
     // write up note (more complex)
     case "Write Up Note":
-	    header = await tp.file.include("[[0604 - Header_Writeup]]");
+	    header = await tp.file.include("[[0504 - Header_Writeup]]");
 		var type = await tp.system.suggester( (item) => item, [
 			"Progress Tracker Note",
 			"Discovery Note",

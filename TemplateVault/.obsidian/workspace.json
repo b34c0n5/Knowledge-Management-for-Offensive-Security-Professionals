@@ -8,23 +8,13 @@
         "type": "tabs",
         "children": [
           {
-            "id": "365154f39894f207",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "!Knowledge Management for Offensive Security Professional/KM4OP.jpg"
-              }
-            }
-          },
-          {
-            "id": "03d051a64365339c",
+            "id": "f71622903a447e39",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "!Knowledge Management for Offensive Security Professional/Knowledge Management for Offensive Security Professionals.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": true,
                 "source": false
               }
@@ -96,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "!Knowledge Management for Offensive Security Professional/KM4OP.jpg",
+                "file": "!Knowledge Management for Offensive Security Professional/Knowledge Management for Offensive Security Professionals.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "!Knowledge Management for Offensive Security Professional/KM4OP.jpg",
+                "file": "!Knowledge Management for Offensive Security Professional/Knowledge Management for Offensive Security Professionals.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "!Knowledge Management for Offensive Security Professional/KM4OP.jpg"
+                "file": "!Knowledge Management for Offensive Security Professional/Knowledge Management for Offensive Security Professionals.md"
               }
             }
           },
@@ -158,7 +148,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "!Knowledge Management for Offensive Security Professional/KM4OP.jpg"
+                "file": "!Knowledge Management for Offensive Security Professional/Knowledge Management for Offensive Security Professionals.md"
               }
             }
           },
@@ -192,62 +182,63 @@
       "obsidian-statusbar-pomo:Start pomodoro": false
     }
   },
-  "active": "365154f39894f207",
+  "active": "f71622903a447e39",
   "lastOpenFiles": [
-    "!Knowledge Management for Offensive Security Professional/Knowledge Management for Offensive Security Professionals.md",
-    "!Knowledge Management for Offensive Security Professional/2. Getting to Know the Vault.md",
-    "!Knowledge Management for Offensive Security Professional/1. Introduction to Obsidian.md",
     "!Knowledge Management for Offensive Security Professional/KM4OP.jpg",
+    "!Knowledge Management for Offensive Security Professional/Knowledge Management for Offensive Security Professionals.md",
     "!Knowledge Management for Offensive Security Professional/0. Preface.md",
     "!Knowledge Management for Offensive Security Professional/3. Note Types.md",
+    "!Knowledge Management for Offensive Security Professional/4. Keeping a Backup.md",
+    "Attachments/Pasted image 20240323151732.png",
+    "Attachments/Pasted image 20240323151436.png",
+    "Attachments/Pasted image 20240323150226.png",
+    "Attachments/Pasted image 20240323150204.png",
+    "Attachments/Pasted image 20240323150149.png",
+    "Attachments/Pasted image 20240323150111.png",
+    "Attachments/Pasted image 20240323144850.png",
+    "Attachments/Pasted image 20240323144729.png",
+    "Attachments/Pasted image 20240323144656.png",
+    "Attachments/Pasted image 20240323144130.png",
+    "!Knowledge Management for Offensive Security Professional/2. Getting to Know the Vault.md",
+    "05 - Templates/0500 - Structural Elements/0501 - Header_CheatSheet.md",
+    "05 - Templates/0500 - Structural Elements/0502 - Header_Technique.md",
+    "05 - Templates/0500 - Structural Elements/0503 - Header_Documentation.md",
+    "05 - Templates/0500 - Structural Elements/0504 - Header_Writeup.md",
+    "05 - Templates/0500 - Structural Elements/0505 - Body.md",
+    "05 - Templates/0500 - Structural Elements/0506 - Body_Challenges.md",
+    "05 - Templates/0500 - Structural Elements/0507 - Body_MITRE.md",
+    "05 - Templates/0500 - Structural Elements/0508 - Body_Steps.md",
+    "05 - Templates/0500 - Structural Elements/0509 - Body_OPSEC.md",
+    "05 - Templates/0500 - Structural Elements/0510 - Body_Code.md",
+    "05 - Templates/0500 - Structural Elements/0511 - Body_Examples.md",
+    "05 - Templates/0500 - Structural Elements/0512 - Body_Install.md",
+    "05 - Templates/0500 - Structural Elements/0513 - Resources.md",
+    "03 - Content/Techniques",
+    "03 - Content/Write Ups",
+    "03 - Content/Cheatsheets",
+    "03 - Content/Programming",
+    "03 - Content/!Cert",
+    "03 - Content/Documentation",
+    "03 - Content",
+    "Untitled",
+    "!Knowledge Management for Offensive Security Professional/1. Introduction to Obsidian.md",
     "!Knowledge Management for Offensive Security Professional",
-    "Attachments/2_5_Attachments.png",
     "04 - Tasks/My Ideas.canvas",
     "04 - Tasks/To-Do Kanban.md",
-    "Attachments/KM4OP.jpg",
-    "Attachments/KM4OP.jpg",
-    "06 - Templates/Note Generator.md",
-    "06 - Templates/0600 - Structural Elements/6013 - Resources.md",
-    "06 - Templates/0600 - Structural Elements/0601 - Header_CheatSheet.md",
+    "05 - Templates/Note Generator.md",
     "02 - Types/02 - Cheatsheets.md",
     "02 - Types/02 - Documentation.md",
     "02 - Types/02 - Techniques.md",
     "02 - Types/02 - Write Ups.md",
-    "01 - Topics/01 - Networking.md",
-    "01 - Topics/01 - Pentesting.md",
-    "04 - Tasks/TO-DO.md",
-    "2_1_Organizational_Folders_Topics.md",
-    "Attachments/2_1_Organizational_Folders_Topics.png",
-    "Attachments/2_1_Organizational_Folders_Types.png",
-    "Attachments/04_Tasks.png",
-    "Attachments/06_Templates.png",
-    "Attachments/06 _Structural_Elements.png",
-    "Attachments/2_2_Content_Folder.png",
-    "README.md",
-    "Vault Index.md",
-    "01 - Topics/01 - Red Team.md",
-    "01 - Topics/01 - Programming.md",
-    "06 - Templates/0600 - Structural Elements/0612 - Body_Install.md",
-    "06 - Templates/0600 - Structural Elements/0611 - Body_Examples.md",
-    "06 - Templates/0600 - Structural Elements/0610 - Body_Code.md",
-    "06 - Templates/0600 - Structural Elements/0609 - Body_OPSEC.md",
     "07 - MiscFiles/Knowledge Management Course Strat.canvas",
     "04 - Tasks/To-Do (Exercises and Machines).canvas",
     "04 - Tasks/Setup For CTF.canvas",
     "03 - Content/Cert/CRTE",
-    "03 - Content/Cert/CRTE2",
-    "03 - Content/Cert/CRTE.zip",
     "04 - Tasks/NetRunners Diagram.canvas",
     "07 - MiscFiles/WGU.canvas",
-    "03 - Content/Cert/Maldev Academy",
     "03 - Content/Write Ups/OSEP Challenge 1/Canvas.canvas",
-    "Pictures",
-    "03 - Content/Cert/Sektor 7 Maldev Essentials",
     "04 - Tasks/Setup.canvas",
     "04 - Tasks/Ideas.canvas",
-    "06 - Templates/0600 - Write Up Templates/Untitled.canvas",
-    "06 - Templates/0600 - Write Up Templates",
-    "03 - Content/Write Ups/OSEP Challenge 1",
-    "07 - MiscFiles/0600 - Structural Elements BAK"
+    "06 - Templates/0600 - Write Up Templates/Untitled.canvas"
   ]
 }
