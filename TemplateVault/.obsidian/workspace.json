@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "2a37e7fc4ee60ebb",
+        "id": "f026e60f464668e9",
         "type": "tabs",
         "children": [
           {
-            "id": "f71622903a447e39",
+            "id": "5192951647e7c6b1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "!Knowledge Management for Offensive Security Professional/Knowledge Management for Offensive Security Professionals.md",
-                "mode": "preview",
+                "file": "!Knowledge Management for Offensive Security Professional/5. Using Templates.md",
+                "mode": "source",
                 "backlinks": true,
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "!Knowledge Management for Offensive Security Professional/Knowledge Management for Offensive Security Professionals.md",
+                "file": "!Knowledge Management for Offensive Security Professional/5. Using Templates.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "!Knowledge Management for Offensive Security Professional/Knowledge Management for Offensive Security Professionals.md",
+                "file": "!Knowledge Management for Offensive Security Professional/5. Using Templates.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "!Knowledge Management for Offensive Security Professional/Knowledge Management for Offensive Security Professionals.md"
+                "file": "!Knowledge Management for Offensive Security Professional/5. Using Templates.md"
               }
             }
           },
@@ -148,7 +148,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "!Knowledge Management for Offensive Security Professional/Knowledge Management for Offensive Security Professionals.md"
+                "file": "!Knowledge Management for Offensive Security Professional/5. Using Templates.md"
               }
             }
           },
@@ -165,7 +165,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 323.5
+    "width": 323.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -178,41 +179,50 @@
       "janitor:Janitor: scan vault": false,
       "obsidian-dangling-links:Show dangling links panel": false,
       "oz-clear-unused-images:Clear Unused Images": false,
-      "templater-obsidian:Templater": false,
-      "obsidian-statusbar-pomo:Start pomodoro": false
+      "obsidian-statusbar-pomo:Start pomodoro": false,
+      "templater-obsidian:Templater": false
     }
   },
-  "active": "f71622903a447e39",
+  "active": "5192951647e7c6b1",
   "lastOpenFiles": [
-    "!Knowledge Management for Offensive Security Professional/KM4OP.jpg",
-    "!Knowledge Management for Offensive Security Professional/Knowledge Management for Offensive Security Professionals.md",
-    "!Knowledge Management for Offensive Security Professional/0. Preface.md",
+    "05 - Templates/0500 - Write Up Templates/0519 - Payload Delivery Commands Template.md",
+    "04 - Tasks/To-Do Kanban.md",
+    "!Knowledge Management for Offensive Security Professional/5. Using Templates.md",
+    "!Knowledge Management for Offensive Security Professional/2. Getting to Know the Vault.md",
+    "Attachments/2_2_Content_Folder.png",
     "!Knowledge Management for Offensive Security Professional/3. Note Types.md",
     "!Knowledge Management for Offensive Security Professional/4. Keeping a Backup.md",
-    "Attachments/Pasted image 20240323151732.png",
-    "Attachments/Pasted image 20240323151436.png",
-    "Attachments/Pasted image 20240323150226.png",
-    "Attachments/Pasted image 20240323150204.png",
-    "Attachments/Pasted image 20240323150149.png",
-    "Attachments/Pasted image 20240323150111.png",
-    "Attachments/Pasted image 20240323144850.png",
-    "Attachments/Pasted image 20240323144729.png",
-    "Attachments/Pasted image 20240323144656.png",
-    "Attachments/Pasted image 20240323144130.png",
-    "!Knowledge Management for Offensive Security Professional/2. Getting to Know the Vault.md",
-    "05 - Templates/0500 - Structural Elements/0501 - Header_CheatSheet.md",
-    "05 - Templates/0500 - Structural Elements/0502 - Header_Technique.md",
-    "05 - Templates/0500 - Structural Elements/0503 - Header_Documentation.md",
-    "05 - Templates/0500 - Structural Elements/0504 - Header_Writeup.md",
-    "05 - Templates/0500 - Structural Elements/0505 - Body.md",
-    "05 - Templates/0500 - Structural Elements/0506 - Body_Challenges.md",
-    "05 - Templates/0500 - Structural Elements/0507 - Body_MITRE.md",
-    "05 - Templates/0500 - Structural Elements/0508 - Body_Steps.md",
-    "05 - Templates/0500 - Structural Elements/0509 - Body_OPSEC.md",
-    "05 - Templates/0500 - Structural Elements/0510 - Body_Code.md",
-    "05 - Templates/0500 - Structural Elements/0511 - Body_Examples.md",
-    "05 - Templates/0500 - Structural Elements/0512 - Body_Install.md",
-    "05 - Templates/0500 - Structural Elements/0513 - Resources.md",
+    "04 - Tasks/My Ideas.canvas",
+    "04 - Tasks/Example.md",
+    "Attachments/Pasted image 20240619175151.png",
+    "Attachments/Pasted image 20240619175014.png",
+    "Attachments/Pasted image 20240619174627.png",
+    "05 - Templates/0500 - Write Up Templates/Untitled.md",
+    "Attachments/Pasted image 20240619174244.png",
+    "05 - Templates/Note Generator.md",
+    "Attachments/Pasted image 20240619174130.png",
+    "05 - Templates/0500 - Write Up Templates/0518 - Active Directory Methodology Template.md",
+    "05 - Templates/0500 - Write Up Templates/0516 - Linux Methodology Template.md",
+    "05 - Templates/0500 - Write Up Templates/0515 - External Discovery Template.md",
+    "05 - Templates/0500 - Write Up Templates/0514 - Progress Tracker Template.md",
+    "05 - Templates/0500 - Write Up Templates/0517 - Windows Methodology Template.md",
+    "05 - Templates/0500 - Write Up Templates/0619 - Payload Delivery Commands Template.md",
+    "05 - Templates/0500 - Write Up Templates/0618 - Active Directory Methodology Template.md",
+    "05 - Templates/0500 - Write Up Templates/0617 - Windows Methodology Template.md",
+    "05 - Templates/0500 - Write Up Templates/0616 - Linux Methodology Template.md",
+    "05 - Templates/0500 - Write Up Templates/0615 - External Discovery Template.md",
+    "05 - Templates/0500 - Write Up Templates/0614 - Progress Tracker Template.md",
+    "05 - Templates/0500 - Write Up Templates",
+    "05 - Templates/0600 - Write Up Templates/0618 - Active Directory Methodology Template.md",
+    "05 - Templates/0600 - Write Up Templates/0614 - Progress Tracker Template.md",
+    "05 - Templates/0600 - Write Up Templates/0615 - External Discovery Template.md",
+    "05 - Templates/0600 - Write Up Templates/0619 - Payload Delivery Commands Template.md",
+    "05 - Templates/0600 - Write Up Templates/0617 - Windows Methodology Template.md",
+    "05 - Templates/0600 - Write Up Templates",
+    "Attachments/Pasted image 20240619172653.png",
+    "Attachments/Pasted image 20240619172305.png",
+    "Attachments/Pasted image 20240619172205.png",
+    "Attachments/Pasted image 20240619172158.png",
     "03 - Content/Techniques",
     "03 - Content/Write Ups",
     "03 - Content/Cheatsheets",
@@ -221,19 +231,9 @@
     "03 - Content/Documentation",
     "03 - Content",
     "Untitled",
-    "!Knowledge Management for Offensive Security Professional/1. Introduction to Obsidian.md",
-    "!Knowledge Management for Offensive Security Professional",
-    "04 - Tasks/My Ideas.canvas",
-    "04 - Tasks/To-Do Kanban.md",
-    "05 - Templates/Note Generator.md",
-    "02 - Types/02 - Cheatsheets.md",
-    "02 - Types/02 - Documentation.md",
-    "02 - Types/02 - Techniques.md",
-    "02 - Types/02 - Write Ups.md",
     "07 - MiscFiles/Knowledge Management Course Strat.canvas",
     "04 - Tasks/To-Do (Exercises and Machines).canvas",
     "04 - Tasks/Setup For CTF.canvas",
-    "03 - Content/Cert/CRTE",
     "04 - Tasks/NetRunners Diagram.canvas",
     "07 - MiscFiles/WGU.canvas",
     "03 - Content/Write Ups/OSEP Challenge 1/Canvas.canvas",

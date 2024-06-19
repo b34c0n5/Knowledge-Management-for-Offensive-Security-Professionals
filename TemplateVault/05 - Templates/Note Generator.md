@@ -74,7 +74,6 @@ switch (type) {
 				console.log(`Note defined. All ready`);
 				return note;
 				break;
-				break;
 			case "Host Note":
 				host = await tp.file.include("[[0616 - Host Discovery + Privilege Escalation Template]]");
 				options = host;
