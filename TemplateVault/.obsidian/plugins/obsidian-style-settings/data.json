@@ -11,8 +11,6 @@
   "obsidian-prism-theme@@pt-font-slashed-zero": true,
   "obsidian-prism-theme@@pt-focused-mode": false,
   "obsidian-prism-theme@@pt-custom-vault-banner": false,
-  "obsidian-prism-theme@@custom-vault-banner-horizontal-align": "pt-custom-vault-banner-justify-content-left",
-  "obsidian-prism-theme@@pt-custom-vault-banner-sticky": true,
   "obsidian-prism-theme@@color-schemes-dt": "pt-color-scheme-indigo-dt",
   "obsidian-prism-theme@@dark-accent-color-preset": "pt-accent-color-pink-dt",
   "encore-settings@@theme-dark": "encore-theme-dark-rgb",
