@@ -5,5 +5,5 @@
   "cleanContent": true,
   "showNotifications": true,
   "include": ".*\\.md",
-  "mediaRootDirectory": "Pictures"
+  "mediaRootDirectory": "Attachments"
 }
