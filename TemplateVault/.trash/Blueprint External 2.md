@@ -1,10 +1,21 @@
+---
+Topics:
+  - "[[01 - Pentesting]]"
+  - "[[01 - Red Team]]"
+Types:
+  - "[[02 - Write Ups]]"
+tags:
+  - writeup
+date created: 
+date modified:
+---
 ## Objective
 
 ___
 ```ad-info
 title:Objective 
 
-- This note is used to keep track of the target Windows machine's discovery, privilege escalation, persistence and credential access processes
+- This note is used to keep track of the target Linux machine's discovery, privilege escalation, persistence and credential access processes
 - This note also contains different cheatsheets and resources to aid in those methodologies
 - Feel free to remove any sections that are non-applicable to keep this note compact.
 ```

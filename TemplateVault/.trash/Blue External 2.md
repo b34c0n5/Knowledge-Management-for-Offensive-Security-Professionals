@@ -1,6 +1,14 @@
-<%*
-let machineIp = await tp.system.prompt("Introduce machine's IP");
--%>
+---
+Topics:
+  - "[[01 - Pentesting]]"
+  - "[[01 - Red Team]]"
+Types:
+  - "[[02 - Write Ups]]"
+tags:
+  - writeup
+date created: 
+date modified:
+---
 ## Objective
 
 ___
@@ -17,7 +25,7 @@ ___
 title:Machine Information
 
 ```txt
-<% machineIp %> {HostName}
+null {HostName}
 ```
 
 > *Add this info to /etc/hosts* once determined. (Could use netexec or similar tools for this)
@@ -31,7 +39,7 @@ title:Machine Information
 title:TCP Port Scan
 
 ```bash
-sudo nmap <% machineIp %> -A -p- -sC -sV -Pn -oN <% machineIp %>_nmap
+sudo nmap null -A -p- -sC -sV -Pn -oN null_nmap
 ```
 *Screenshot*
 ___
@@ -43,7 +51,7 @@ ___
 title:UDP Port Scan
 collapse:yes
 ```bash
-sudo nmap <% machineIp %> -sU -A --top-ports 25 --min-rate 5000 -oN <% machineIp %>_nmap_udp
+sudo nmap null -sU -A --top-ports 25 --min-rate 5000 -oN null_nmap_udp
 ```
 *Screenshot*
 ___
@@ -55,7 +63,7 @@ ___
 title:Vulnerability Scan
 collapse:yes
 ```bash
-sudo nmap <% machineIp %> -p- --script vuln --min-rate 800 -Pn -oN <% machineIp %>_nmap_vuln
+sudo nmap null -p- --script vuln --min-rate 800 -Pn -oN null_nmap_vuln
 ```
 *Screenshot*
 ___
@@ -72,8 +80,8 @@ title: Query Domain Name
 
 ```bash
 nslookup                    
-> server <% machineIp %>
-> <% machineIp %> OR {HostName}
+> server null
+> null OR {HostName}
 ```
 *Screenshot*
 ___
@@ -86,7 +94,7 @@ ___
 title:Query DNS Records
 
 ```bash
-nslookup -type=ANY FQDN <% machineIp %>
+nslookup -type=ANY FQDN null
 
 ```
 
@@ -100,7 +108,7 @@ ___
 title: Zone Transfer
 
 ```bash
-dig axfr <% machineIp %> {HostName}
+dig axfr null {HostName}
 
 ```
 
@@ -119,7 +127,7 @@ ___
 title:Enumerate Valid Strings
 
 ```bash
-onesixtyone -c /usr/share/metasploit-framework/data/wordlists/snmp_default_pass.txt <% machineIp %>
+onesixtyone -c /usr/share/metasploit-framework/data/wordlists/snmp_default_pass.txt null
 ```
 *Screenshot*
 ___
@@ -133,7 +141,7 @@ title:Enumerate SNMP Configuration
 Get all SNMP info using found string (check write access enabled):
 
 ```bash
-snmp-check <% machineIp %> -w -c {string}
+snmp-check null -w -c {string}
 ```
 
 *Screenshot*
@@ -148,7 +156,7 @@ title:Executing Extended Queries
 Thanks to extended queries (download-mibs), it is possible to enumerate even more about the system with the following command:
 
 ```bash
-snmpwalk -v2c -c {string} <% machineIp %> NET-SNMP-EXTEND-MIB::nsExtendOutputFull
+snmpwalk -v2c -c {string} null NET-SNMP-EXTEND-MIB::nsExtendOutputFull
 ```
 
 *Screenshot*
@@ -161,7 +169,7 @@ ___
 title:Execute ExtendedObjects
 
 ```bash
-snmpwalk -v2c -c {string} <% machineIp %> NET-SNMP-EXTEND-MIB::nsExtendObjects
+snmpwalk -v2c -c {string} null NET-SNMP-EXTEND-MIB::nsExtendObjects
 
 ```
 
@@ -179,7 +187,7 @@ ___
 
 ~~~ad-check
 ```bash
-ftp -nv anonymous@<% machineIp %>
+ftp -nv anonymous@null
 ```
 
 *Screenshot*
@@ -192,7 +200,7 @@ ___
 Brute-force FTP for default credentials:
 
 ```bash
-hydra -C /usr/share/seclists/Passwords/Default-Credentials/ftp-betterdefaultpasslist.txt <% machineIp %> ftp
+hydra -C /usr/share/seclists/Passwords/Default-Credentials/ftp-betterdefaultpasslist.txt null ftp
 ```
 
 *Screenshot*
@@ -207,7 +215,7 @@ ___
 title:Brute-Force SSH for default credentials:
 
 ```bash
-hydra -C /usr/share/seclists/Passwords/Default-Credentials/ssh-betterdefaultpasslist.txt <% machineIp %> ssh
+hydra -C /usr/share/seclists/Passwords/Default-Credentials/ssh-betterdefaultpasslist.txt null ssh
 ```
 
 *Screenshot*
@@ -226,7 +234,7 @@ Once you have a domain name to work with and a list of possible usernames (& dep
 title:SMTP Brute Force
 
 ```bash
-smtp-user-enum -M RCPT -U wordlist.txt -t <% machineIp %>
+smtp-user-enum -M RCPT -U wordlist.txt -t null
 ```
 *Screenshot*
 ___
@@ -234,7 +242,7 @@ ___
 ___
 ~~~
 
-### POP and IMAP (110, 995; 143, 993)
+### POP and IMAP
 
 > [110,995 - Pentesting POP | HackTricks | HackTricks](https://book.hacktricks.xyz/network-services-pentesting/pentesting-pop)
 > [143,993 - Pentesting IMAP | HackTricks | HackTricks](https://book.hacktricks.xyz/network-services-pentesting/pentesting-imap)
@@ -246,11 +254,11 @@ If any valid users were identified and POP3/IMAP services are running we might w
 ~~~ad-check
 title:IMAP Brute Force
 ```bash
-hydra -L users.txt -P users.txt <% machineIp %> -e nsr imap(s)
+hydra -L users.txt -P users.txt null -e nsr imap(s)
 ```
 
 ```bash
-hydra -L users.txt -P users.txt <% machineIp %> -e nsr pop3(s)
+hydra -L users.txt -P users.txt null -e nsr pop3(s)
 ```
 
 *Screenshot*
@@ -265,7 +273,7 @@ If this attack returns valid credentials, we can connect to POP3/IMAP using the 
 title:Logging into POP3/IMAP
 
 ```bash
-nc -nv <% machineIp %> 110
+nc -nv null 110
 USER {user}
 PASS {pass}
 LIST # show messages
@@ -286,7 +294,7 @@ collapse:yes
 If there is any indicative of users expecting a link, we can try to launch a phishing attack by accessing SMTP once again and sending a link that points to a listener:
 
 ```bash
-nc -nv <% machineIp %> 25
+nc -nv null 25
 helo hacker
 MAIL FROM: (impersonated user)@domain
 RCPT TO: (target user)@domain
@@ -325,11 +333,9 @@ Once we add that final dot the message is sent, keep checking the listener to se
 title:Logging into RPC
 
 ```bash
-rpcclient <% machineIp %> -U 'user%pass' 
-```
+rpcclient null -U 'user%pass' 
 
-```bash
-rpcclient <% machineIp %> -U 'guest%'
+rpcclient -U 'guest%'
 ```
 
 *Screenshot*
@@ -348,18 +354,16 @@ ___
 title:Listing Available Shares
 
 ```bash
-smbclient -L <% machineIp %> -U '%'
-```
+smbclient -L null -U '%'
 
-```bash
-smbclient -L <% machineIp %> -U 'guest%'
+smbclient -L null -U 'guest%'
 ```
 *Screenshot*
 ___
 
 
 ```bash
-netexec smb <% machineIp %> --shares -u '' -p ''
+crackmapexec smb null --shares -u '' -p ''
 ```
 *Screenshot*
 ___
@@ -459,7 +463,7 @@ title:Brute Forcing Kerberos
 Now we can feed this wordlist into kerbrute:
 
 ```bash
-kerbrute userenum --dc <% machineIp %> -d DOMAIN -t 20 possible_users.txt
+kerbrute userenum --dc null -d DOMAIN -t 20 possible_users.txt
 ```
 
 *Screenshot*
@@ -474,15 +478,15 @@ ___
 title:Brute-force MySQL, MSSQL, PostgreSQL for default credentials:
 
 ```bash
-hydra -C /usr/share/seclists/Passwords/Default-Credentials/mysql-betterdefaultpasslist.txt <% machineIp %> mysql
+hydra -C /usr/share/seclists/Passwords/Default-Credentials/mysql-betterdefaultpasslist.txt null mysql
 ```
 
 ```bash
-hydra -C /usr/share/seclists/Passwords/Default-Credentials/mssql-betterdefaultpasslist.txt <% machineIp %> mssql
+hydra -C /usr/share/seclists/Passwords/Default-Credentials/mssql-betterdefaultpasslist.txt null mssql
 ```
 
 ```bash
-hydra -C /usr/share/seclists/Passwords/Default-Credentials/postgres-betterdefaultpasslist.txt <% machineIp %> postgres
+hydra -C /usr/share/seclists/Passwords/Default-Credentials/postgres-betterdefaultpasslist.txt null postgres
 ```
 
 *Screenshot*
@@ -495,7 +499,7 @@ ___
 
 ~~~ad-check
 ```txt
-nc -nv <% machineIp %> {PORT}
+nc -nv null {PORT}
 ```
 *Screenshot*
 ___
@@ -508,7 +512,7 @@ ___
 
 > Duplicate this section for each HTTP/S open port present in the machine. Not all checks are applicable always.
 
-> URLs are using "http", remember to change if applicable. You can use Command Palette > Search and Replace http://<% machineIp %>/
+> URLs are using "http", remember to change if applicable. You can use Command Palette > Search and Replace http://null/
 
 #### CheckList
 
@@ -561,7 +565,7 @@ title:Fingerprinting
 *Technologies Enumeration*
 ___
 ```bash
-whatweb http://<% machineIp %>/ | tr -s ',' '\n'
+whatweb http://null/ | tr -s ',' '\n'
 ```
 Screenshot:
 ___
@@ -571,7 +575,7 @@ ___
 *Request Headers*
 ___
 ```bash
-curl -iX GET http://<% machineIp %>/
+curl -iX GET http://null/
 ```
 Screenshot:
 ___
@@ -581,7 +585,7 @@ ___
 *Web App Firewalls*
 ___
 ```bash
-wafw00f http://<% machineIp %>/ -a
+wafw00f http://null/ -a
 ```
 Screenshot:
 ___
@@ -598,7 +602,7 @@ ___
 title:Existing files/directories (Directory Bruteforcing + Spidering)
 
 ```bash
-dirspider.sh http://<% machineIp %>/ [-r]
+dirspider.sh http://null/ [-r]
 ```
 *Screenshot*
 ___
@@ -610,7 +614,7 @@ ___
 title:403's (forbidden sites)
 
 ```bash
-dirsearch -u http://<% machineIp %>/ -r --deep-recursive -F -t 100 -x 404,400,500
+dirsearch -u http://null/ -r --deep-recursive -F -t 100 -x 404,400,500
 ```
 *Screenshot*
 ___
@@ -632,7 +636,7 @@ for i in $(seq 1 15); print {GOBUSTER}/$i >> api.list
 - Check for valid locations:
 
 ```bash
-gobuster dir -u http://<% machineIp %>/ -t 100 -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt -p api.list -t 100 --exclude-length 0
+gobuster dir -u http://null/ -t 100 -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt -p api.list -t 100 --exclude-length 0
 ```
 *Screenshot*
 ___
@@ -655,7 +659,7 @@ ___
 ```
 
 ```bash
-dirsearch -u http://<% machineIp %>/ -r --deep-recursive -F -t 100 -x 404,400,500 -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt
+dirsearch -u http://null/ -r --deep-recursive -F -t 100 -x 404,400,500 -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt
 ```
 *Screenshot*
 ___
@@ -671,7 +675,7 @@ title:File Enumeration
 Remember to look for files specifying their extensions if applicable:
 
 ```bash
-dirsearch -u http://<% machineIp %>/ -r --deep-recursive -F -t 100 -x 404,400,500 -e php, pdf, aspx, html, htm
+dirsearch -u http://null/ -r --deep-recursive -F -t 100 -x 404,400,500 -e php, pdf, aspx, html, htm
 ```
 *Screenshot*
 ___
@@ -720,7 +724,7 @@ ___
 > Take note here of any findings embedded in the source code here + screenshots:
 
 ~~~ad-info
-Location: http://<% machineIp %>/
+Location: http://null/
 
 
 ~~~
@@ -733,7 +737,7 @@ title:Metadata Analysis
 Remember to download any interesting pieces of media for examination with exiftool. Look for usernames, programs, dates:
 
 ```bash
-wget http://<% machineIp %>/file
+wget http://null/file
 ```
 
 ```bash

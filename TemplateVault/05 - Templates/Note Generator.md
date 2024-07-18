@@ -55,41 +55,49 @@ switch (type) {
 		var type = await tp.system.suggester( (item) => item, [
 			"Progress Tracker Note",
 			"Discovery Note",
-			"Host Note", 
-			"Domain Note",
+			"Linux Host Note", 
+			"Windows Host Note",
+			"Active Directory Set Note",
 			"Payload Delivery Note"
 		] );
 		switch (type) {
 			case "Progress Tracker Note":
-				progressTracker= await tp.file.include("[[0614 - Progress Tracker Template]]");
+				progressTracker= await tp.file.include("[[0514 - Progress Tracker Template]]");
 				options = progressTracker;
 				var note = (header + options);
 				console.log(`Note defined. All ready`);
 				return note;
 				break;
 			case "Discovery Note":
-				discovery = await tp.file.include("[[0615 - External Discovery Template]]");
+				discovery = await tp.file.include("[[0515 - External Discovery Template]]");
 				options = discovery;
 				var note = (header + options);
 				console.log(`Note defined. All ready`);
 				return note;
 				break;
-			case "Host Note":
-				host = await tp.file.include("[[0616 - Host Discovery + Privilege Escalation Template]]");
+			case "Linux Host Note":
+				host = await tp.file.include("[[0516 - Linux Methodology Template]]");
 				options = host;
 				var note = (header + options);
 				console.log(`Note defined. All ready`);
 				return note;
 				break;
-			case "Domain Note":
-				domain = await tp.file.include("[[0617 - Domain Discovery + Privilege Escalation + Lateral Movement Template]]");
+			case "Windows Host Note":
+				host = await tp.file.include("[[0517 - Windows Methodology Template]]");
+				options = host;
+				var note = (header + options);
+				console.log(`Note defined. All ready`);
+				return note;
+				break;
+			case "Active Directory Set Note":
+				domain = await tp.file.include("[[0518 - Active Directory Methodology Template]]");
 				options = domain;
 				var note = (header + options);
 				console.log(`Note defined. All ready`);
 				return note;
 				break;
 			case "Payload Delivery Note":
-				payloadDelivery = await tp.file.include("[[0618 - Payload Delivery Commands Template]]");
+				payloadDelivery = await tp.file.include("[[0519 - Payload Delivery Commands Template]]");
 				options = payloadDelivery;
 				var note = (header + options);
 				console.log(`Note defined. All ready`);
