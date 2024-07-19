@@ -23,10 +23,10 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "!Knowledge Management for Offensive Security Professional/Knowledge Management for Offensive Security Professionals.md",
-                "mode": "preview",
+                "file": "!Knowledge Management for Offensive Security Professional/9. Producing Write Ups.md",
+                "mode": "source",
                 "backlinks": true,
-                "source": false
+                "source": true
               }
             }
           }
@@ -81,7 +81,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 302.5110321044922
+    "width": 302.5110321044922,
+    "collapsed": true
   },
   "right": {
     "id": "8409fc61d2a84d38",
@@ -97,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "!Knowledge Management for Offensive Security Professional/Knowledge Management for Offensive Security Professionals.md",
+                "file": "!Knowledge Management for Offensive Security Professional/9. Producing Write Ups.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "!Knowledge Management for Offensive Security Professional/Knowledge Management for Offensive Security Professionals.md",
+                "file": "!Knowledge Management for Offensive Security Professional/9. Producing Write Ups.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "!Knowledge Management for Offensive Security Professional/Knowledge Management for Offensive Security Professionals.md"
+                "file": "!Knowledge Management for Offensive Security Professional/9. Producing Write Ups.md"
               }
             }
           },
@@ -159,7 +160,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "!Knowledge Management for Offensive Security Professional/Knowledge Management for Offensive Security Professionals.md"
+                "file": "!Knowledge Management for Offensive Security Professional/9. Producing Write Ups.md"
               }
             }
           }
@@ -168,7 +169,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 323.5
+    "width": 323.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -188,14 +190,15 @@
   },
   "active": "463848bca17c1573",
   "lastOpenFiles": [
-    "!Knowledge Management for Offensive Security Professional/9. Producing Write Ups.md",
     "!Knowledge Management for Offensive Security Professional/Knowledge Management for Offensive Security Professionals.md",
-    "05 - Templates/0500 - Write Up Templates/0517 - Windows Methodology Template.md",
+    "!Knowledge Management for Offensive Security Professional/9. Producing Write Ups.md",
     "Attachments/KM4OP.jpg",
+    "Attachments/Pasted image 20240719020653.png",
+    "03 - Content/Write Ups/Blueprint/Blueprint External.md",
+    "05 - Templates/0500 - Write Up Templates/0517 - Windows Methodology Template.md",
     "Attachments/Pasted image 20240428140516.png",
     "Attachments/Pasted image 20240428140923.png",
     "05 - Templates/0500 - Write Up Templates/0515 - External Discovery Template.md",
-    "03 - Content/Write Ups/Blueprint/Blueprint External.md",
     "05 - Templates/Note Generator.md",
     "05 - Templates/0500 - Write Up Templates/0518 - Active Directory Methodology Template.md",
     "05 - Templates/0500 - Write Up Templates/0516 - Linux Methodology Template.md",
@@ -207,7 +210,6 @@
     "Attachments/Pasted image 20240719014109.png",
     "Attachments/Pasted image 20240719013912.png",
     "Attachments/Pasted image 20240719013832.png",
-    "Attachments/Pasted image 20240719013748.png",
     "03 - Content/Write Ups/Blueprint/N.md",
     "03 - Content/Write Ups/Blue/Blue External.md",
     "!Knowledge Management for Offensive Security Professional/5. Using Templates.md",
