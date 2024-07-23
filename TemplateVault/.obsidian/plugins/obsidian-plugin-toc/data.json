@@ -1,6 +1,6 @@
 {
-  "minimumDepth": 2,
-  "maximumDepth": 4,
+  "minimumDepth": 1,
+  "maximumDepth": 6,
   "listStyle": "number",
   "useMarkdown": false
 }

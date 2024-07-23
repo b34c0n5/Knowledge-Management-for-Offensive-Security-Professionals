@@ -30,7 +30,7 @@ ___
 title:Machine Information
 
 ```txt
-10.10.15.198 {HostName}
+10.10.15.198 Blueprint
 ```
 
 > *Add this info to /etc/hosts* once determined. (Could use netexec or similar tools for this)
@@ -166,7 +166,7 @@ ___
 
 **Notes**: RPC is accessible as guest, was able to enumerate users.
 
-### SMB (443 TCP)
+### SMB (445 TCP)
 
 > [139,445 - Pentesting SMB | HackTricks | HackTricks](https://book.hacktricks.xyz/network-services-pentesting/pentesting-smb)
 
@@ -218,7 +218,7 @@ smb: \> mget *
 ```
 ~~~
 
-### Web Application - 445
+### Web Application - 443
 
 #### Other Notes
 

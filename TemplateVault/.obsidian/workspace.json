@@ -18,20 +18,19 @@
             }
           },
           {
-            "id": "463848bca17c1573",
+            "id": "8480d0d11b8eb024",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "!Knowledge Management for Offensive Security Professional/9. Producing Write Ups.md",
-                "mode": "source",
+                "file": "!Knowledge Management for Offensive Security Professional/Knowledge Management for Offensive Security Professionals.md",
+                "mode": "preview",
                 "backlinks": true,
-                "source": true
+                "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -81,8 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 302.5110321044922,
-    "collapsed": true
+    "width": 302.5110321044922
   },
   "right": {
     "id": "8409fc61d2a84d38",
@@ -98,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "!Knowledge Management for Offensive Security Professional/9. Producing Write Ups.md",
+                "file": "Attachments/KM4OP.jpg",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "!Knowledge Management for Offensive Security Professional/9. Producing Write Ups.md",
+                "file": "Attachments/KM4OP.jpg",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "!Knowledge Management for Offensive Security Professional/9. Producing Write Ups.md"
+                "file": "Attachments/KM4OP.jpg"
               }
             }
           },
@@ -160,7 +158,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "!Knowledge Management for Offensive Security Professional/9. Producing Write Ups.md"
+                "file": "Attachments/KM4OP.jpg"
               }
             }
           }
@@ -169,8 +167,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 323.5,
-    "collapsed": true
+    "width": 323.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -188,45 +185,47 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "463848bca17c1573",
+  "active": "dc9ae0fa98b4d627",
   "lastOpenFiles": [
     "!Knowledge Management for Offensive Security Professional/Knowledge Management for Offensive Security Professionals.md",
-    "!Knowledge Management for Offensive Security Professional/9. Producing Write Ups.md",
     "Attachments/KM4OP.jpg",
-    "Attachments/Pasted image 20240719020653.png",
+    "!Knowledge Management for Offensive Security Professional/9. Producing Write Ups.md",
+    "Attachments/Pasted image 20240723070517.png",
+    "Attachments/Pasted image 20240723065430.png",
+    "Attachments/Pasted image 20240723065351.png",
+    "Attachments/Pasted image 20240723065306.png",
+    "03 - Content/Write Ups/Blueprint/My Report.md",
+    "Attachments/Pasted image 20240723065228.png",
+    "Attachments/Pasted image 20240723065109.png",
+    "Attachments/Pasted image 20240723065021.png",
+    "Attachments/Pasted image 20240723064950.png",
+    "Attachments/Pasted image 20240723064931.png",
     "03 - Content/Write Ups/Blueprint/Blueprint External.md",
-    "05 - Templates/0500 - Write Up Templates/0517 - Windows Methodology Template.md",
-    "Attachments/Pasted image 20240428140516.png",
-    "Attachments/Pasted image 20240428140923.png",
-    "05 - Templates/0500 - Write Up Templates/0515 - External Discovery Template.md",
-    "05 - Templates/Note Generator.md",
-    "05 - Templates/0500 - Write Up Templates/0518 - Active Directory Methodology Template.md",
-    "05 - Templates/0500 - Write Up Templates/0516 - Linux Methodology Template.md",
-    "03 - Content/Cheatsheets/Active Directory Penetration Testing Methodology Cheatsheet.md",
     "03 - Content/Write Ups/Blueprint/Blueprint Internal.md",
-    "Attachments/Pasted image 20240719014400.png",
-    "Attachments/Pasted image 20240719014253.png",
-    "Attachments/Pasted image 20240719014213.png",
-    "Attachments/Pasted image 20240719014109.png",
-    "Attachments/Pasted image 20240719013912.png",
-    "Attachments/Pasted image 20240719013832.png",
-    "03 - Content/Write Ups/Blueprint/N.md",
-    "03 - Content/Write Ups/Blue/Blue External.md",
-    "!Knowledge Management for Offensive Security Professional/5. Using Templates.md",
+    "05 - Templates/0500 - Report Templates/OSCP Report Template.md",
+    "05 - Templates/0500 - Report Templates",
+    "Untitled.canvas",
     "05 - Templates/0500 - Write Up Templates/0519 - Payload Delivery Commands Template.md",
-    "03 - Content/Write Ups/Blue/Blue.md",
-    "05 - Templates/0500 - Write Up Templates/Untitled.md",
-    "03 - Content/Write Ups/Blue/Blue External Discovery.md",
-    "03 - Content/Write Ups/Blueprint",
     "!Knowledge Management for Offensive Security Professional/8. Optimizing Your Vault.md",
-    "04 - Tasks/My Ideas.canvas",
-    "03 - Content/Cheatsheets/ADPT Privilege Escalation.md",
     "!Knowledge Management for Offensive Security Professional/7. Formatting your Notes.md",
+    "!Knowledge Management for Offensive Security Professional/5. Using Templates.md",
     "!Knowledge Management for Offensive Security Professional/6. Metadata.md",
+    "!Knowledge Management for Offensive Security Professional/0. Preface.md",
     "!Knowledge Management for Offensive Security Professional/1. Introduction to Obsidian.md",
     "!Knowledge Management for Offensive Security Professional/2. Getting to Know the Vault.md",
     "!Knowledge Management for Offensive Security Professional/3. Note Types.md",
     "!Knowledge Management for Offensive Security Professional/4. Keeping a Backup.md",
+    "05 - Templates/0500 - Write Up Templates/0515 - External Discovery Template.md",
+    "05 - Templates/0500 - Write Up Templates/0517 - Windows Methodology Template.md",
+    "05 - Templates/Note Generator.md",
+    "05 - Templates/0500 - Write Up Templates/0518 - Active Directory Methodology Template.md",
+    "05 - Templates/0500 - Write Up Templates/0516 - Linux Methodology Template.md",
+    "03 - Content/Cheatsheets/Active Directory Penetration Testing Methodology Cheatsheet.md",
+    "03 - Content/Write Ups/Blueprint/N.md",
+    "03 - Content/Write Ups/Blue/Blue External.md",
+    "03 - Content/Write Ups/Blue/Blue.md",
+    "03 - Content/Write Ups/Blueprint",
+    "04 - Tasks/My Ideas.canvas",
     "05 - Templates/0500 - Write Up Templates",
     "05 - Templates/0600 - Write Up Templates",
     "03 - Content/Techniques",
@@ -235,7 +234,6 @@
     "03 - Content/Programming",
     "03 - Content/!Cert",
     "03 - Content/Documentation",
-    "03 - Content",
     "07 - MiscFiles/Knowledge Management Course Strat.canvas",
     "04 - Tasks/To-Do (Exercises and Machines).canvas",
     "04 - Tasks/Setup For CTF.canvas",
@@ -243,7 +241,6 @@
     "07 - MiscFiles/WGU.canvas",
     "03 - Content/Write Ups/OSEP Challenge 1/Canvas.canvas",
     "04 - Tasks/Setup.canvas",
-    "04 - Tasks/Ideas.canvas",
-    "06 - Templates/0600 - Write Up Templates/Untitled.canvas"
+    "04 - Tasks/Ideas.canvas"
   ]
 }

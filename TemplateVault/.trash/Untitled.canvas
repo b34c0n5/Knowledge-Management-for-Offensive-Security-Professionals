@@ -1,0 +1,26 @@
+{
+	"nodes":[
+		{"id":"e9c41f6d10725d16","x":-180,"y":-105,"width":250,"height":60,"color":"2","type":"text","text":"MAIL SERVER\n"},
+		{"id":"990611dd18516d3d","x":-180,"y":-45,"width":250,"height":60,"color":"5","type":"text","text":"10.10.155.5"},
+		{"id":"e9b7742b0ff41c14","x":-180,"y":15,"width":250,"height":60,"color":"4","type":"text","text":"10.10.10.5"},
+		{"id":"4af77dbf0aacd131","x":255,"y":-45,"width":100,"height":60,"color":"4","type":"text","text":"15"},
+		{"id":"00e5fd70fbc394d4","x":255,"y":15,"width":100,"height":60,"color":"4","type":"text","text":"25"},
+		{"id":"9cf187eed3003256","x":255,"y":75,"width":100,"height":60,"color":"4","type":"text","text":"35"},
+		{"id":"fe536a3349a4ec36","type":"text","text":"225","x":255,"y":135,"width":100,"height":60,"color":"4"},
+		{"id":"77070196d3308839","x":180,"y":-105,"width":250,"height":60,"color":"2","type":"text","text":"Otras maquinas windows"},
+		{"id":"ef3aae334f41c367","x":-500,"y":-107,"width":175,"height":64,"color":"2","type":"text","text":"KALI MACHINE"},
+		{"id":"c48160c55b787dfc","x":-500,"y":-45,"width":175,"height":60,"color":"5","type":"text","text":"10.8.0.2"}
+	],
+	"edges":[
+		{"id":"d99c1d03a8858f9d","fromNode":"c48160c55b787dfc","fromSide":"right","toNode":"990611dd18516d3d","toSide":"left"},
+		{"id":"d05fbdc59e404fa7","fromNode":"990611dd18516d3d","fromSide":"left","toNode":"c48160c55b787dfc","toSide":"right"},
+		{"id":"c8e824f6f4147e6f","fromNode":"4af77dbf0aacd131","fromSide":"left","toNode":"e9b7742b0ff41c14","toSide":"right"},
+		{"id":"c6e86e2713797c67","fromNode":"e9b7742b0ff41c14","fromSide":"right","toNode":"4af77dbf0aacd131","toSide":"left"},
+		{"id":"6c85194361c9390c","fromNode":"e9b7742b0ff41c14","fromSide":"right","toNode":"00e5fd70fbc394d4","toSide":"left"},
+		{"id":"699e22a921b88a6e","fromNode":"00e5fd70fbc394d4","fromSide":"left","toNode":"e9b7742b0ff41c14","toSide":"right"},
+		{"id":"5c50a499f6add932","fromNode":"e9b7742b0ff41c14","fromSide":"right","toNode":"9cf187eed3003256","toSide":"left"},
+		{"id":"0741e7ed322903e2","fromNode":"9cf187eed3003256","fromSide":"left","toNode":"e9b7742b0ff41c14","toSide":"right"},
+		{"id":"c891c7b803b3140d","fromNode":"fe536a3349a4ec36","fromSide":"left","toNode":"e9b7742b0ff41c14","toSide":"right"},
+		{"id":"6bebe1327958d9a4","fromNode":"e9b7742b0ff41c14","fromSide":"right","toNode":"fe536a3349a4ec36","toSide":"left"}
+	]
+}

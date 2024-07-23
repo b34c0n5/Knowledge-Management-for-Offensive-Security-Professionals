@@ -338,7 +338,7 @@ ___
 
 ~~~
 
-### SMB (443 TCP)
+### SMB (445 TCP)
 
 > [139,445 - Pentesting SMB | HackTricks | HackTricks](https://book.hacktricks.xyz/network-services-pentesting/pentesting-smb)
 
